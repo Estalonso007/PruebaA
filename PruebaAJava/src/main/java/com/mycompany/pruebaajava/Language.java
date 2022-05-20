@@ -14,6 +14,8 @@ public abstract class Language {
     protected String name;
     protected String version;
     protected String tipo;
+    protected String reservedWords;
+    protected String code;
 
     public void setName(String name) {
         this.name = name;
@@ -38,7 +40,28 @@ public abstract class Language {
     public String getTipo() {
         return this.tipo;
     }
+
+    public void setReservedWords(String reservedWords) {
+        this.reservedWords = reservedWords;
+    }
+
+    public String getReservedWords() {
+        return this.reservedWords;
+    }
     
-    /*In this class I can put more useful methods for all the subclasses*/
+        public void setCode(String code) {
+        this.code = code;
+    }
+
+    public String getCode() {
+        return this.code;
+    }
+    
+/*In this class I can put more useful methods for all the subclasses*/
+    public abstract void getCompiler();
+    public abstract void getInterpreter();
+    
+    
+    
     
 }

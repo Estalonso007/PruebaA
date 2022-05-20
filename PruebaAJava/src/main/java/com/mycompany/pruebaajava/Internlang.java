@@ -9,15 +9,14 @@ package com.mycompany.pruebaajava;
  *
  * @author USER
  */
-public class CSharp extends Language {
-    /*Here I can put useful atributes or methods for a this specific language
-    or from the father class*/
-        @Override
-    public  void getCompiler(){
-        
-    }
+public class Internlang extends Language {
+
     @Override
-    public  void getInterpreter(){
-        
+    public void getCompiler() {
+
+    }
+        @Override
+    public void getInterpreter() {
+
     }
 }

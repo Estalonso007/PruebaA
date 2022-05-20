@@ -31,7 +31,7 @@ public class CodeGenerator {
     }
 
     public void readCode() {
-
+        /*this method collect the code from the internlang language*/
     }
 
     public String translateCode() {

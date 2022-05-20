@@ -9,14 +9,6 @@ package com.mycompany.pruebaajava;
  *
  * @author USER
  */
-public class Python extends Language {
-    /*Here I can put useful atributes or methods for a this specific language*/
-    @Override
-    public  void getCompiler(){
-        
-    }
-    @Override
-    public  void getInterpreter(){
-        
-    }
+public class Go /*extends Language*/ {
+    /*this is not ready yet*/
 }
